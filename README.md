@@ -1,11 +1,12 @@
 # sky_station
 Key Features</br>
-# Login Screen
+
+Login Screen</br>
 
 Implements Firebase anonymous sign-in for seamless user onboarding.
 Automatically navigates to the Home Screen upon successful sign-in.</br>
 
-# Home Screen 
+Home Screen </br>
 
 Displays the current latitude and longitude of the ISS retrieved from the ISS Now API.
 Shows the UTC and local time of the last data update.
@@ -15,13 +16,13 @@ Displays a special message if the ISS is above the user's current country:
 Auto-updates data every minute with a visible countdown timer for the next refresh.
 Includes a manual refresh button for instant data updates.</br>
 
-# Error Handling
+Error Handling</br>
 
 Handles network errors gracefully and displays user-friendly error messages.
 Manages both successful and error responses from the API.</br>
 
+Responsiveness </br>
 
-# Responsiveness 
 Designed to provide a seamless experience across various Android devices.
 Implements a clean and simple UI with appropriate styling.
 Technologies and Tools Used
