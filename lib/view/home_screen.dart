@@ -41,12 +41,6 @@ class _HomeViewState extends State<HomeScreen> {
       appBar: AppBar(
         automaticallyImplyLeading: false,
         title: const Text('Sky Station Tracking'),
-        actions: const [
-          //LogoutButtonWidget(), // Widget for logout button
-          SizedBox(
-            width: 20,
-          )
-        ],
       ),
       body: BlocProvider(
         create: (_) => issBloc..add(IssDataFetched()),

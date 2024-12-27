@@ -41,7 +41,7 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: CircularProgressIndicator(), // Show loading while signing in
+        child: CircularProgressIndicator(),
       ),
     );
   }
