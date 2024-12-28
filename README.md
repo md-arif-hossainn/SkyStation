@@ -31,3 +31,13 @@ HTTP Requests: Dio package for efficient and robust API integration.</br>
 Firebase: Firebase anonymous authentication for user login.</br>
 Flutter Test Framework: Unit and widget tests for verifying app functionality.</br>
 Geocoding: Integrated to identify the country/region from ISS coordinates.</br>
+
+# How to run this project 
+Clone the Repository</br>
+git clone <https://github.com/md-arif-hossainn/SkyStation.git></br>
+Navigate to the Project Directory, 
+Run this command to fetch all the required dependencies:</br>
+flutter pub get</br>
+Run the App</br>
+Connect a device or start an emulator, then use:</br>
+flutter run
